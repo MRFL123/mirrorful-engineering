@@ -242,15 +242,5 @@ git pull origin development
 git branch -d feature/PROJ-123-new-feature
 ```
 
-### Useful Git Aliases
-```bash
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
-git config --global alias.unstage 'reset HEAD --'
-git config --global alias.last 'log -1 HEAD'
-git config --global alias.visual '!gitk'
-```
 
 This workflow ensures consistent, traceable, and collaborative development across all projects while maintaining code quality and deployment reliability.
